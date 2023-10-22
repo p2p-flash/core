@@ -1,0 +1,13 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = "0.8.21"
+eth-rpc-url = "https://ethereum.publicnode.com"
+
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+]
+
+[rpc_endpoints]
+goerli = "https://endpoints.omniatech.io/v1/eth/goerli/public"
